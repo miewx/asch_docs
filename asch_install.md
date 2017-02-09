@@ -36,7 +36,7 @@ tar zxvf asch-linux-latest-mainnet.tar.gz
 
 这一步会自动帮您做以下几件事情
 
-1. 安装nodejs和sqlite3等依赖软件
+1. sqlite3、wget、curl等依赖软件
 2. 安装和配置ntp服务，保证您的时间与其他节点同步
 
 这一步只需要运行一次即可，重复运行也无妨
