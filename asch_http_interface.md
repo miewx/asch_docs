@@ -84,9 +84,9 @@ Table of Contents
                * [<strong>2.10.9.5 资产发行</strong>](#21095-资产发行)
                * [<strong>2.10.9.6 资产转账</strong>](#21096-资产转账)
                * [<strong>2.10.9.7 资产注销</strong>](#21097-资产注销)
-      * [<strong>2.11 存储storages</strong>](#211-存储storages)
-         * [<strong>2.11.1 上传数据</strong>](#2111-上传数据)
-         * [<strong>2.11.2 查询存储的数据</strong>](#2112-查询存储的数据)
+         * [<strong>2.11 存储storages</strong>](#211-存储storages)
+            * [<strong>2.11.1 上传数据</strong>](#2111-上传数据)
+            * [<strong>2.11.2 查询存储的数据</strong>](#2112-查询存储的数据)
       * [<strong>附录1：asch-js安装</strong>](#附录1asch-js安装)
 
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
@@ -2899,9 +2899,9 @@ JSON返回示例：
 {"success":true}		
 ```  
 
-## **2.11 存储storages**   
+#### **2.11 存储storages**   
 源码在src/core/transactions.js文件中，适合存储短文。
-### **2.11.1 上传数据**
+#### **2.11.1 上传数据**
 接口地址：/api/storages   
 请求方式：PUT   
 支持格式：json   
